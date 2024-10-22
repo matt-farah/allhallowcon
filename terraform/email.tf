@@ -1,6 +1,6 @@
 ######## SES Zone configuration and verification ########
 resource "aws_ses_domain_identity" "allhallowcon_com" {
-    domain = "1512.link"
+    domain = "allhallowcon.com"
 }
 
 # Route 53 DNS record to verify the email address

@@ -70,3 +70,15 @@ resource "aws_route53_record" "aaaa_allhallowcon_com" {
     "2606:50c0:8003::153"
   ]  
 }
+
+resource "aws_route53_record" "www_allhallowcon_com" {
+  zone_id = aws_route53_zone.allhallowcon_com.id
+  name    = "www.allhallowcon.com"
+  type    = "CNAME"
+
+  ttl = 300
+
+  records = [
+    "1512-ninja.github.io"
+  ]
+}
