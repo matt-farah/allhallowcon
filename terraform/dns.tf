@@ -41,14 +41,32 @@ resource "aws_route53_zone" "allhallowcon_com" {
   name = "allhallowcon.com"
 }
 
-# resource "aws_route53_record" "a_1512_link" {
-#   zone_id = aws_route53_zone.zone_1512_link.id
-#   name    = "allhallowcon.com"
-#   type    = "A"
+resource "aws_route53_record" "a_allhallowcon_com" {
+  zone_id = aws_route53_zone.allhallowcon_com.id
+  name    = "allhallowcon.com"
+  type    = "A"
 
-#   ttl = 300
+  ttl = 300
 
-#   records = [
-#     "99.117.23.45",
-#   ]
-# }
+  records = [
+    "185.199.108.153",
+    "185.199.109.153",
+    "185.199.110.153",
+    "185.199.111.153"
+  ]
+}
+
+resource "aws_route53_record" "aaaa_allhallowcon_com" {
+  zone_id = aws_route53_zone.allhallowcon_com.id
+  name    = "allhallowcon.com"
+  type    = "AAAA"
+
+  ttl = 300
+
+  records = [
+    "2606:50c0:8000::153",
+    "2606:50c0:8001::153",
+    "2606:50c0:8002::153",
+    "2606:50c0:8003::153"
+  ]  
+}
