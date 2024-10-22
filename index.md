@@ -4,6 +4,10 @@
 
 Allhallowcon is the annual gathering of Halloween in Tulsa!
 
+## Photo booth
+
+Details TBD, but we plan to have a photobooth again that will send you your photos via email, using Amazon SES to send them.
+
 ## Event schedule
 
 | Date | Time | Event | Who? | Location |
@@ -16,6 +20,3 @@ Allhallowcon is the annual gathering of Halloween in Tulsa!
 | Sun 27-Oct | TBD | Brunch and video games | Anyone! | The house |
 | Thu 31-Oct | 4:00 PM | Trick or Treating | Anyone! | The house |
 
-## Photo booth
-
-Details TBD
