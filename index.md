@@ -1,8 +1,10 @@
-# About
+# Allhallowcon 2024
+
+## About
 
 Allhallowcon is the annual gathering of Halloween in Tulsa!
 
-# Event schedule
+## Event schedule
 
 | Date | Time | Event | Who? | Location |
 | ---- | ---- | ----- | ---- | -------- |
@@ -14,6 +16,6 @@ Allhallowcon is the annual gathering of Halloween in Tulsa!
 | Sun 27-Oct | TBD | Brunch and video games | Anyone! | The house |
 | Thu 31-Oct | 4:00 PM | Trick or Treating | Anyone! | The house |
 
-# Photo booth
+## Photo booth
 
 Details TBD
